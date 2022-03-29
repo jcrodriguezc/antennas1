@@ -14,7 +14,7 @@ def num_zones():
     return zones
 
 def m2_zone():
-    m2_zone = input("Enter de area of the zone (m2): ")
+    m2_zone = input("Enter the area of the zone (m2): ")
     while type(m2_zone)!=float:
         try:
             m2_zone = float(m2_zone)
@@ -23,7 +23,7 @@ def m2_zone():
             else:
                 m2_zone = input("The area most be a number greater than 0, try again: ")    
         except:
-            m2_zone = input("The area most be a number greater tha 0, try again: ")    
+            m2_zone = input("The area most be a number greater than 0, try again: ")    
 
 def previus_antennas():
     previus_antennas = input("Enter the number of antennas installed in the area ")
